@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'inter-bold';
+    src: url(fonts/Inter_18pt-Bold.ttf) format('ttf');
+    font-weight: 300; 
+}
+.container{
+    height: 500px;
+    width: 400px;
+    margin-top: 70px;
+    background-color: rgb(22, 21, 21) ;
+    border-radius: 20px;
+    
+}
+
+
+body{
+    background-color: black;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+   border-radius: 40px;
+   height:80px;
+   margin: 30px 0px 0 150px;
+}
+
+h2{
+    margin: 20px 0 0 105px;
+    color: white;
+    font-family: "Inter";  
+    }
+ 
+h3{
+    margin: 5px 0 0 112px;
+    font-size: 14px;
+    font-family: 'Inter';
+    color: greenyellow;
+}
+ p{
+    margin:  10px 0 0px 50px;
+    font-family: 'Inter';
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+}
+
+.fancy-buttons{
+    width: 350px;
+    height: 40px;
+    background-color:  rgb(46, 44, 44);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 10px;
+    border-radius: 10px;
+    margin: 0px 5px 10px 25px;
+}
+
+.fancy-buttons:hover{
+    background-color: greenyellow;
+}
+
+a{
+    color: black;
+    font-family: 'Inter';
+    font-size:15px ;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
